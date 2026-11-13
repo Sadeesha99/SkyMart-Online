@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+
+# Next.js and generated build files
+.next/
+out/
+dist/
+build/
+*.tsbuildinfo
+
+# Local service state
+.netlify/
+.vercel/
+.neon
+
+# Environment files and private credentials
+.env*
+!.env.example
+*.pem
+*.key
+
+# Test and temporary output
+coverage/
+playwright-report/
+test-results/
+tmp/
+*.log
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Keep source, migrations, package-lock.json and the hosting PDF tracked.
